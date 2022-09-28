@@ -13,9 +13,10 @@
 		2C6BD0AE28D9E463008A237D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6BD0AD28D9E463008A237D /* ContentView.swift */; };
 		2C6BD0B028D9E466008A237D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6BD0AF28D9E466008A237D /* Assets.xcassets */; };
 		2C6BD0B328D9E466008A237D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6BD0B228D9E466008A237D /* Preview Assets.xcassets */; };
-		2C8CC82528E2FDD500CBD8C3 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8CC82428E2FDD500CBD8C3 /* VideoView.swift */; };
-		2C8CC82728E2FE0600CBD8C3 /* Galerry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8CC82628E2FE0600CBD8C3 /* Galerry.swift */; };
-		2C8CC82928E2FE2600CBD8C3 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8CC82828E2FE2600CBD8C3 /* Map.swift */; };
+		2CA85AE028E43D520084E2C8 /* CoverImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA85ADF28E43D520084E2C8 /* CoverImage.swift */; };
+		2CA85AE328E43EBA0084E2C8 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CA85AE228E43EBA0084E2C8 /* Data.json */; };
+		2CA85AE628E43F5B0084E2C8 /* ModelImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA85AE528E43F5B0084E2C8 /* ModelImage.swift */; };
+		2CA85AE928E440510084E2C8 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA85AE828E440510084E2C8 /* CodableBundleExtension.swift */; };
 		2CB5D5A428E18B1F005EA6C8 /* ButterflyTechnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB5D5A328E18B1F005EA6C8 /* ButterflyTechnique.swift */; };
 		2CB5D5A728E1970B005EA6C8 /* Estonia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB5D5A628E1970B005EA6C8 /* Estonia.swift */; };
 		2CB5D5A928E1A95E005EA6C8 /* Poland.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB5D5A828E1A95E005EA6C8 /* Poland.swift */; };
@@ -38,9 +39,10 @@
 		2C6BD0AD28D9E463008A237D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C6BD0AF28D9E466008A237D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C6BD0B228D9E466008A237D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2C8CC82428E2FDD500CBD8C3 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
-		2C8CC82628E2FE0600CBD8C3 /* Galerry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Galerry.swift; sourceTree = "<group>"; };
-		2C8CC82828E2FE2600CBD8C3 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		2CA85ADF28E43D520084E2C8 /* CoverImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImage.swift; sourceTree = "<group>"; };
+		2CA85AE228E43EBA0084E2C8 /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		2CA85AE528E43F5B0084E2C8 /* ModelImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelImage.swift; sourceTree = "<group>"; };
+		2CA85AE828E440510084E2C8 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		2CB5D5A328E18B1F005EA6C8 /* ButterflyTechnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButterflyTechnique.swift; sourceTree = "<group>"; };
 		2CB5D5A628E1970B005EA6C8 /* Estonia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estonia.swift; sourceTree = "<group>"; };
 		2CB5D5A828E1A95E005EA6C8 /* Poland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poland.swift; sourceTree = "<group>"; };
@@ -69,7 +71,6 @@
 		2C6BD09F28D9E463008A237D = {
 			isa = PBXGroup;
 			children = (
-				2C8CC82328E2FD6F00CBD8C3 /* BestSwimmerGalerry */,
 				2CDFD85A28DB417A00B82BCA /* View */,
 				2C6BD0AA28D9E463008A237D /* Swim */,
 				2C6BD0A928D9E463008A237D /* Products */,
@@ -103,14 +104,36 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		2C8CC82328E2FD6F00CBD8C3 /* BestSwimmerGalerry */ = {
+		2CA85ADE28E43D330084E2C8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2C8CC82428E2FDD500CBD8C3 /* VideoView.swift */,
-				2C8CC82628E2FE0600CBD8C3 /* Galerry.swift */,
-				2C8CC82828E2FE2600CBD8C3 /* Map.swift */,
+				2CA85ADF28E43D520084E2C8 /* CoverImage.swift */,
 			);
-			path = BestSwimmerGalerry;
+			path = View;
+			sourceTree = "<group>";
+		};
+		2CA85AE128E43E8E0084E2C8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2CA85AE228E43EBA0084E2C8 /* Data.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2CA85AE428E43F470084E2C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2CA85AE528E43F5B0084E2C8 /* ModelImage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2CA85AE728E4401C0084E2C8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2CA85AE828E440510084E2C8 /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		2CB5D5A528E196DB005EA6C8 /* Flags */ = {
@@ -131,10 +154,14 @@
 		2CDFD85A28DB417A00B82BCA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2CA85AE728E4401C0084E2C8 /* Extension */,
+				2CA85AE428E43F470084E2C8 /* Model */,
+				2CA85AE128E43E8E0084E2C8 /* Data */,
+				2CA85ADE28E43D330084E2C8 /* View */,
+				2CFC75F528DC8CE100DB9339 /* Technique */,
 				2CB5D5A528E196DB005EA6C8 /* Flags */,
 				2CDFD85D28DB472700B82BCA /* TechniqueView.swift */,
 				2CDFD85B28DB41A700B82BCA /* StartSwimingView.swift */,
-				2CFC75F528DC8CE100DB9339 /* Technique */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -210,6 +237,7 @@
 			files = (
 				2C6BD0B328D9E466008A237D /* Preview Assets.xcassets in Resources */,
 				2C6BD0B028D9E466008A237D /* Assets.xcassets in Resources */,
+				2CA85AE328E43EBA0084E2C8 /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,14 +250,15 @@
 			files = (
 				2C6BD0AE28D9E463008A237D /* ContentView.swift in Sources */,
 				2C30E49D28DDD25A0049B9AA /* BackStrokeTechnique.swift in Sources */,
+				2CA85AE028E43D520084E2C8 /* CoverImage.swift in Sources */,
 				2CB5D5A428E18B1F005EA6C8 /* ButterflyTechnique.swift in Sources */,
+				2CA85AE928E440510084E2C8 /* CodableBundleExtension.swift in Sources */,
 				2CB5D5AF28E1AFCF005EA6C8 /* Ireland.swift in Sources */,
 				2CB5D5AD28E1AE9F005EA6C8 /* Germany.swift in Sources */,
-				2C8CC82528E2FDD500CBD8C3 /* VideoView.swift in Sources */,
 				2CB5D5A928E1A95E005EA6C8 /* Poland.swift in Sources */,
+				2CA85AE628E43F5B0084E2C8 /* ModelImage.swift in Sources */,
 				2C6BD0AC28D9E463008A237D /* SwimApp.swift in Sources */,
 				2CDFD85C28DB41A700B82BCA /* StartSwimingView.swift in Sources */,
-				2C8CC82928E2FE2600CBD8C3 /* Map.swift in Sources */,
 				2CFC75F428DC4E2D00DB9339 /* FreestileTechnique.swift in Sources */,
 				2CB5D5B128E1B492005EA6C8 /* Italy.swift in Sources */,
 				2CB5D5A728E1970B005EA6C8 /* Estonia.swift in Sources */,
@@ -237,7 +266,6 @@
 				2CDFD85E28DB472700B82BCA /* TechniqueView.swift in Sources */,
 				2C20F54B28DD9F0900BD4354 /* BreaststrokeTechnique.swift in Sources */,
 				2CB5D5B728E1B96D005EA6C8 /* Russia.swift in Sources */,
-				2C8CC82728E2FE0600CBD8C3 /* Galerry.swift in Sources */,
 				2CB5D5AB28E1AC8E005EA6C8 /* France.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
