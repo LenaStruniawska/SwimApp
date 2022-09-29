@@ -26,6 +26,8 @@
 		2CB5D5B128E1B492005EA6C8 /* Italy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB5D5B028E1B492005EA6C8 /* Italy.swift */; };
 		2CB5D5B728E1B96D005EA6C8 /* Russia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB5D5B628E1B96D005EA6C8 /* Russia.swift */; };
 		2CB5D5B928E1BC29005EA6C8 /* US.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB5D5B828E1BC29005EA6C8 /* US.swift */; };
+		2CC90E8328E57A6F0011774E /* Data1.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CC90E8228E57A6F0011774E /* Data1.json */; };
+		2CC90E8528E57AD30011774E /* CoverImageSimona.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC90E8428E57AD30011774E /* CoverImageSimona.swift */; };
 		2CDFD85C28DB41A700B82BCA /* StartSwimingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDFD85B28DB41A700B82BCA /* StartSwimingView.swift */; };
 		2CDFD85E28DB472700B82BCA /* TechniqueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDFD85D28DB472700B82BCA /* TechniqueView.swift */; };
 		2CFC75F428DC4E2D00DB9339 /* FreestileTechnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC75F328DC4E2D00DB9339 /* FreestileTechnique.swift */; };
@@ -52,6 +54,8 @@
 		2CB5D5B028E1B492005EA6C8 /* Italy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Italy.swift; sourceTree = "<group>"; };
 		2CB5D5B628E1B96D005EA6C8 /* Russia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Russia.swift; sourceTree = "<group>"; };
 		2CB5D5B828E1BC29005EA6C8 /* US.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = US.swift; sourceTree = "<group>"; };
+		2CC90E8228E57A6F0011774E /* Data1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data1.json; sourceTree = "<group>"; };
+		2CC90E8428E57AD30011774E /* CoverImageSimona.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageSimona.swift; sourceTree = "<group>"; };
 		2CDFD85B28DB41A700B82BCA /* StartSwimingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartSwimingView.swift; sourceTree = "<group>"; };
 		2CDFD85D28DB472700B82BCA /* TechniqueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechniqueView.swift; sourceTree = "<group>"; };
 		2CFC75F328DC4E2D00DB9339 /* FreestileTechnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreestileTechnique.swift; sourceTree = "<group>"; };
@@ -108,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				2CA85ADF28E43D520084E2C8 /* CoverImage.swift */,
+				2CC90E8428E57AD30011774E /* CoverImageSimona.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -116,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				2CA85AE228E43EBA0084E2C8 /* Data.json */,
+				2CC90E8228E57A6F0011774E /* Data1.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -236,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C6BD0B328D9E466008A237D /* Preview Assets.xcassets in Resources */,
+				2CC90E8328E57A6F0011774E /* Data1.json in Resources */,
 				2C6BD0B028D9E466008A237D /* Assets.xcassets in Resources */,
 				2CA85AE328E43EBA0084E2C8 /* Data.json in Resources */,
 			);
@@ -250,6 +257,7 @@
 			files = (
 				2C6BD0AE28D9E463008A237D /* ContentView.swift in Sources */,
 				2C30E49D28DDD25A0049B9AA /* BackStrokeTechnique.swift in Sources */,
+				2CC90E8528E57AD30011774E /* CoverImageSimona.swift in Sources */,
 				2CA85AE028E43D520084E2C8 /* CoverImage.swift in Sources */,
 				2CB5D5A428E18B1F005EA6C8 /* ButterflyTechnique.swift in Sources */,
 				2CA85AE928E440510084E2C8 /* CodableBundleExtension.swift in Sources */,
