@@ -22,6 +22,7 @@ struct ContentView: View {
                     Image("swim")
                         .resizable()
                         .frame(width: 400, height: 350)
+                      
                     
                     Text("Swim Class.")
                         .foregroundColor(Color.white)
@@ -177,5 +178,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .previewDevice("iPhone 11 pro")
     }
 }

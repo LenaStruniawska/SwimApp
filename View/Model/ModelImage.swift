@@ -10,4 +10,5 @@ import SwiftUI
 struct ModelImage: Codable, Identifiable {
     let id: Int
     let name: String
+    let description : String
 }

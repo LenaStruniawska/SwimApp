@@ -21,6 +21,9 @@ struct StartSwimingView: View {
                                     Image("kraul")
                                         .resizable()
                                         .frame(width:150, height: 150, alignment: .leading)
+                                        .clipShape(
+                                        RoundedRectangle(cornerRadius: 12)
+                                        )
                                     
                                     Text("Freestile     ")
                                             .font(.headline)
@@ -33,6 +36,9 @@ struct StartSwimingView: View {
                                     Image("Zabka")
                                         .resizable()
                                         .frame(width:150, height: 150, alignment: .leading)
+                                        .clipShape(
+                                        RoundedRectangle(cornerRadius: 12)
+                                        )
                                     
                                     Text("Breststroke")
                                             .font(.headline)
@@ -45,6 +51,9 @@ struct StartSwimingView: View {
                                     Image("backstoke")
                                         .resizable()
                                         .frame(width:150, height: 150, alignment: .leading)
+                                        .clipShape(
+                                        RoundedRectangle(cornerRadius: 12)
+                                        )
                                     
                                     Text("Backstroke")
                                             .font(.headline)
@@ -58,6 +67,9 @@ struct StartSwimingView: View {
                                     Image("butterfly")
                                         .resizable()
                                         .frame(width:150, height: 150, alignment: .leading)
+                                        .clipShape(
+                                        RoundedRectangle(cornerRadius: 12)
+                                        )
                                     
                                     Text("Butterfly     ")
                                             .font(.headline)
