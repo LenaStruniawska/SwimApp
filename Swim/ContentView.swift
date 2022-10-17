@@ -19,10 +19,11 @@ struct ContentView: View {
         ZStack {
             ScrollView {
                 VStack(spacing: 10) {
-                    Image("swim")
+                    Image("kids")
                         .resizable()
                         .frame(width: 400, height: 350)
                       
+                    
                     
                     Text("Swim Class.")
                         .foregroundColor(Color.white)
