@@ -12,10 +12,8 @@ struct ContentView: View {
     @State private var isAnimating: Bool = false
     @State private var showingSheet = false
     @State private var showing2Sheet = false
-   
     
     var body: some View {
-    NavigationView {
         ZStack {
             ScrollView {
                 VStack(spacing: 10) {
@@ -23,8 +21,6 @@ struct ContentView: View {
                         .resizable()
                         .frame(width: 400, height: 350)
                       
-                    
-                    
                     Text("Swim Class.")
                         .foregroundColor(Color.white)
                         .font(.largeTitle)
@@ -32,8 +28,6 @@ struct ContentView: View {
                         .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.15), radius: 2, x: 2, y: 2)
                         .scaleEffect(isAnimating ? 1.0 : 0.2)
                     Spacer()
-                      
-                    
                     DisclosureGroup("Swiming benefits", isExpanded: $revealDetails) {
                     Text("""
                         * Keeps your head rate up but takes some of the impact stress off your body.
@@ -56,9 +50,7 @@ struct ContentView: View {
                     }
                     .foregroundColor(.white)
                     .font(.headline)
-                    .navigationBarTitleDisplayMode(.inline)
-                        
-        
+                    
                     //BUTTON 2
                     NavigationLink {
                         StartSwimingView()
@@ -67,7 +59,6 @@ struct ContentView: View {
                     }
                     .foregroundColor(.white)
                     .font(.headline)
-                    .navigationBarTitleDisplayMode(.inline)
                     Spacer()
                     
                     HStack {
@@ -79,7 +70,7 @@ struct ContentView: View {
                         Spacer()
                         Spacer()
                         Spacer()
-                    }//:HSTACK
+                }//:HSTACK
                     ScrollView(.horizontal) {
                         HStack {
                             VStack {
@@ -161,10 +152,9 @@ struct ContentView: View {
                             }
                         }
                     }
-            }//:VSTACK
-        }//:SCROLLVIEW
-    }//:ZSTACK
-    
+                }//:VSTACK
+            }//:SCROLLVIEW
+        }
         .onAppear {
             withAnimation(.easeOut(duration: 0.6)) {
                 isAnimating = true
@@ -172,8 +162,7 @@ struct ContentView: View {
         }
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
         .background(LinearGradient(gradient: Gradient(colors: [.blue, .black, .blue]), startPoint: .top, endPoint: .bottom))
-    }//:NAVLINK
-  }
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {

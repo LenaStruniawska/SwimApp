@@ -13,7 +13,7 @@ struct BackStrokeTechnique: View {
             Color("ColorStrawberryLight")
                 .ignoresSafeArea()
             VStack {
-                Image("obroty")
+                Image("backstroke-1")
                     .resizable()
                     .frame(width: 380, height: 300)
                 

@@ -13,7 +13,7 @@ struct ButterflyTechnique: View {
           Color("ColorMangoLight")
                 .ignoresSafeArea()
             VStack {
-                Image("delfin")
+                Image("pexel")
                     .resizable()
                     .frame(width: 360, height: 300)
                 

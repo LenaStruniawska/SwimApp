@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		2C20F54B28DD9F0900BD4354 /* BreaststrokeTechnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C20F54A28DD9F0900BD4354 /* BreaststrokeTechnique.swift */; };
+		2C2B783528F7E74D00DE21ED /* freestyleExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2B783428F7E74D00DE21ED /* freestyleExercise.swift */; };
+		2C2B783828F7EAE900DE21ED /* backstrokeExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2B783728F7EAE900DE21ED /* backstrokeExercise.swift */; };
+		2C2B783A28F7F9D800DE21ED /* breststrokeExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2B783928F7F9D800DE21ED /* breststrokeExercise.swift */; };
 		2C30E49D28DDD25A0049B9AA /* BackStrokeTechnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C30E49C28DDD25A0049B9AA /* BackStrokeTechnique.swift */; };
 		2C6BD0AC28D9E463008A237D /* SwimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6BD0AB28D9E463008A237D /* SwimApp.swift */; };
 		2C6BD0AE28D9E463008A237D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6BD0AD28D9E463008A237D /* ContentView.swift */; };
 		2C6BD0B028D9E466008A237D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6BD0AF28D9E466008A237D /* Assets.xcassets */; };
 		2C6BD0B328D9E466008A237D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6BD0B228D9E466008A237D /* Preview Assets.xcassets */; };
-		2C8B738328F012C000F2D480 /* FreestyleExerciseData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C8B738228F012C000F2D480 /* FreestyleExerciseData.json */; };
+		2C6EC9CE28F807880040366E /* butterflyExercise1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EC9CD28F807880040366E /* butterflyExercise1.swift */; };
 		2CA85AE028E43D520084E2C8 /* CoverImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA85ADF28E43D520084E2C8 /* CoverImage.swift */; };
 		2CA85AE328E43EBA0084E2C8 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CA85AE228E43EBA0084E2C8 /* Data.json */; };
 		2CA85AE628E43F5B0084E2C8 /* ModelImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA85AE528E43F5B0084E2C8 /* ModelImage.swift */; };
@@ -62,13 +65,16 @@
 
 /* Begin PBXFileReference section */
 		2C20F54A28DD9F0900BD4354 /* BreaststrokeTechnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreaststrokeTechnique.swift; sourceTree = "<group>"; };
+		2C2B783428F7E74D00DE21ED /* freestyleExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freestyleExercise.swift; sourceTree = "<group>"; };
+		2C2B783728F7EAE900DE21ED /* backstrokeExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backstrokeExercise.swift; sourceTree = "<group>"; };
+		2C2B783928F7F9D800DE21ED /* breststrokeExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breststrokeExercise.swift; sourceTree = "<group>"; };
 		2C30E49C28DDD25A0049B9AA /* BackStrokeTechnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackStrokeTechnique.swift; sourceTree = "<group>"; };
 		2C6BD0A828D9E463008A237D /* Swim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C6BD0AB28D9E463008A237D /* SwimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimApp.swift; sourceTree = "<group>"; };
 		2C6BD0AD28D9E463008A237D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C6BD0AF28D9E466008A237D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C6BD0B228D9E466008A237D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2C8B738228F012C000F2D480 /* FreestyleExerciseData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FreestyleExerciseData.json; sourceTree = "<group>"; };
+		2C6EC9CD28F807880040366E /* butterflyExercise1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = butterflyExercise1.swift; sourceTree = "<group>"; };
 		2CA85ADF28E43D520084E2C8 /* CoverImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImage.swift; sourceTree = "<group>"; };
 		2CA85AE228E43EBA0084E2C8 /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
 		2CA85AE528E43F5B0084E2C8 /* ModelImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelImage.swift; sourceTree = "<group>"; };
@@ -103,11 +109,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2C3C7B5E28E718DD003C5AB8 /* Exercise */ = {
+		2C2B783328F7E70300DE21ED /* startswimingview */ = {
 			isa = PBXGroup;
 			children = (
+				2C2B783428F7E74D00DE21ED /* freestyleExercise.swift */,
+				2C2B783728F7EAE900DE21ED /* backstrokeExercise.swift */,
+				2C2B783928F7F9D800DE21ED /* breststrokeExercise.swift */,
+				2C6EC9CD28F807880040366E /* butterflyExercise1.swift */,
 			);
-			path = Exercise;
+			path = startswimingview;
 			sourceTree = "<group>";
 		};
 		2C6BD09F28D9E463008A237D = {
@@ -162,7 +172,6 @@
 			children = (
 				2CA85AE228E43EBA0084E2C8 /* Data.json */,
 				2CC90E8228E57A6F0011774E /* Data1.json */,
-				2C8B738228F012C000F2D480 /* FreestyleExerciseData.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -201,7 +210,6 @@
 		2CDFD85A28DB417A00B82BCA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2C3C7B5E28E718DD003C5AB8 /* Exercise */,
 				2CA85AE728E4401C0084E2C8 /* Extension */,
 				2CA85AE428E43F470084E2C8 /* Model */,
 				2CA85AE128E43E8E0084E2C8 /* Data */,
@@ -210,6 +218,7 @@
 				2CB5D5A528E196DB005EA6C8 /* Flags */,
 				2CDFD85D28DB472700B82BCA /* TechniqueView.swift */,
 				2CDFD85B28DB41A700B82BCA /* StartSwimingView.swift */,
+				2C2B783328F7E70300DE21ED /* startswimingview */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -315,7 +324,6 @@
 			files = (
 				2C6BD0B328D9E466008A237D /* Preview Assets.xcassets in Resources */,
 				2CC90E8328E57A6F0011774E /* Data1.json in Resources */,
-				2C8B738328F012C000F2D480 /* FreestyleExerciseData.json in Resources */,
 				2C6BD0B028D9E466008A237D /* Assets.xcassets in Resources */,
 				2CA85AE328E43EBA0084E2C8 /* Data.json in Resources */,
 			);
@@ -341,6 +349,7 @@
 				2CC90E8528E57AD30011774E /* CoverImageSimona.swift in Sources */,
 				2CA85AE028E43D520084E2C8 /* CoverImage.swift in Sources */,
 				2CB5D5A428E18B1F005EA6C8 /* ButterflyTechnique.swift in Sources */,
+				2C6EC9CE28F807880040366E /* butterflyExercise1.swift in Sources */,
 				2CA85AE928E440510084E2C8 /* CodableBundleExtension.swift in Sources */,
 				2CB5D5AF28E1AFCF005EA6C8 /* Ireland.swift in Sources */,
 				2CB5D5AD28E1AE9F005EA6C8 /* Germany.swift in Sources */,
@@ -348,12 +357,15 @@
 				2CA85AE628E43F5B0084E2C8 /* ModelImage.swift in Sources */,
 				2C6BD0AC28D9E463008A237D /* SwimApp.swift in Sources */,
 				2CDFD85C28DB41A700B82BCA /* StartSwimingView.swift in Sources */,
+				2C2B783A28F7F9D800DE21ED /* breststrokeExercise.swift in Sources */,
+				2C2B783828F7EAE900DE21ED /* backstrokeExercise.swift in Sources */,
 				2CFC75F428DC4E2D00DB9339 /* FreestileTechnique.swift in Sources */,
 				2CB5D5B128E1B492005EA6C8 /* Italy.swift in Sources */,
 				2CB5D5A728E1970B005EA6C8 /* Estonia.swift in Sources */,
 				2CB5D5B928E1BC29005EA6C8 /* US.swift in Sources */,
 				2CDFD85E28DB472700B82BCA /* TechniqueView.swift in Sources */,
 				2C20F54B28DD9F0900BD4354 /* BreaststrokeTechnique.swift in Sources */,
+				2C2B783528F7E74D00DE21ED /* freestyleExercise.swift in Sources */,
 				2CB5D5B728E1B96D005EA6C8 /* Russia.swift in Sources */,
 				2CB5D5AB28E1AC8E005EA6C8 /* France.swift in Sources */,
 			);
@@ -559,7 +571,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -578,7 +590,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

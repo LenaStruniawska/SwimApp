@@ -1,23 +1,23 @@
 [
     {
         "id" : 1,
-        "name" : "Daniel"
+        "name" : "dolphin-1"
     },
     {
         "id" : 2,
-        "name" : "Daniel-2"
+        "name" : "goldfish-swim"
     },
     {
         "id" : 3,
-        "name" : "Daniel-3"
+        "name" : "swim-2"
     },
     {
         "id" : 4,
-        "name" : "Daniel-4"
+        "name" : "swim-fins"
     },
     {
         "id" : 5,
-        "name" : "Daniel-1"
+        "name" : "swim-fins-1"
     },
    
 ]

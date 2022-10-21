@@ -14,7 +14,7 @@ struct Ireland: View {
                 .ignoresSafeArea()
             ScrollView {
                 Spacer()
-                Image("Daniel-Wiffen")
+                Image("black-golden")
                     .resizable()
                     .scaledToFit()
                 Spacer()

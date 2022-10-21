@@ -14,7 +14,7 @@ struct Russia: View {
                 .ignoresSafeArea()
             ScrollView {
                 Spacer()
-                Image("Alexander")
+                Image("sunday")
                     .resizable()
                     .scaledToFit()
                 Spacer()

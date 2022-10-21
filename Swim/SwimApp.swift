@@ -12,7 +12,10 @@ struct SwimApp: App {
     
     var body: some Scene {
         WindowGroup {
-         ContentView()
+            NavigationView {
+                ContentView()
+            }
+            .navigationBarTitleDisplayMode(.automatic)
         }
     }
 }

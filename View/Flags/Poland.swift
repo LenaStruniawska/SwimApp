@@ -14,7 +14,7 @@ struct Poland: View {
                 .ignoresSafeArea()
             ScrollView {
                 Spacer()
-                Image("Otylia")
+                Image("snorkle")
                     .resizable()
                     .scaledToFit()
                Spacer()

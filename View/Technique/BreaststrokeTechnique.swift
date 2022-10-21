@@ -12,7 +12,7 @@ struct BreaststrokeTechnique: View {
         ZStack {
             HStack {
                 VStack {
-                    Image("zabka-1")
+                    Image("frogg")
                         .resizable()
                         .frame(width: 400, height: 300)
                     

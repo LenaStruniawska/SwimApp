@@ -16,7 +16,7 @@ struct FreestileTechnique: View {
                 VStack {
                     Spacer()
                     Spacer()
-                    Image("kraul2")
+                    Image("ftechnique")
                         .resizable()
                         .scaledToFit()
                     

@@ -14,7 +14,8 @@ struct France: View {
                 .ignoresSafeArea()
             ScrollView {
                 Spacer()
-                Image("Camille")
+                Image("paddle")
+                    .resizable()
                     .scaledToFit()
                 Spacer()
                  
